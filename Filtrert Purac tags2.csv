@@ -1,0 +1,386 @@
+Name;Address;Datatype;Description;Enhet;Meas interval;Meas unit;New tag
+AK_ENERGI_P;X15D;BOOL;Puls från el energimätare ;Av/på;0;Ved Endring;P_THP_AK_ENERGI_P
+CAMBI_AI1_CALC;D3824;REAL;Kalkylerat värde;;30;Sekund;P_THP_CAMBI_AI1_CALC
+CAMBI_AI2_CALC;D3844;REAL;Kalkylerat värde;;30;Sekund;P_THP_CAMBI_AI2_CALC
+CAMBI_AI3_CALC;D3864;REAL;Kalkylerat värde;;30;Sekund;P_THP_CAMBI_AI3_CALC
+CAMBI_AI4_CALC;D3884;REAL;Kalkylerat värde;;30;Sekund;P_THP_CAMBI_AI4_CALC
+CAMBI_AI5_CALC;D3904;REAL;Kalkylerat värde;;30;Sekund;P_THP_CAMBI_AI5_CALC
+CAMBI_AI6_CALC;D3924;REAL;Kalkylerat värde;;30;Sekund;P_THP_CAMBI_AI6_CALC
+CAS_TS03_01_01_CAS;M3241;BOOL;Omrörare Buffertank septik Fuktvakt, tempvakt;Av/på;0;Ved Endring;P_THP_CAS_TS03_01_01_CAS
+CAS_TS60_01_00_CAS;M3213;BOOL;Recirkulationspump slam Profibus DP Fuktvakt, tempvakt;Av/på;0;Ved Endring;P_THP_CAS_TS60_01_00_CAS
+CAS_TS60_02_00_CAS;M3214;BOOL;Recirkulationspump slam Profibus DP Fuktvakt, tempvakt;Av/på;0;Ved Endring;P_THP_CAS_TS60_02_00_CAS
+CTW92_01_01_D;X13F;BOOL;Kylfläktar Drift;Av/på;0;Ved Endring;P_THP_CTW92_01_01_D
+CTW92_01_02_D;X143;BOOL;Kylfläktar Drift;Av/på;0;Ved Endring;P_THP_CTW92_01_02_D
+CTW92_02_01_D;X147;BOOL;Kylfläktar Drift;Av/på;0;Ved Endring;P_THP_CTW92_02_01_D
+CTW92_02_02_D;X14B;BOOL;Kylfläktar Drift;Av/på;0;Ved Endring;P_THP_CTW92_02_02_D
+EQU01_00_01_D;X40;BOOL;Hydraulaggregat Drift;Av/på;0;Ved Endring;P_THP_EQU01_00_01_D
+EQU71_00_00_D;XE4;BOOL;Hydraulaggregat Drift;Av/på;0;Ved Endring;P_THP_EQU71_00_00_D
+FIC03_00_01_HMI_SP;D2216;REAL;Setpoint från HMI;;30;Sekund;P_THP_FIC03_00_01_HMI_SP
+FIC04_00_01_HMI_SP;D2276;REAL;Setpoint från HMI;;30;Sekund;P_THP_FIC04_00_01_HMI_SP
+FIC71_01_01_HMI_SP;D2436;REAL;Setpoint från HMI;;30;Sekund;P_THP_FIC71_01_01_HMI_SP
+FIC71_02_01_HMI_SP;D2456;REAL;Setpoint från HMI;;30;Sekund;P_THP_FIC71_02_01_HMI_SP
+FIC72_00_01_72_HMI_SP;D2256;REAL;Setpoint från HMI;;30;Sekund;P_THP_FIC72_00_01_72_HMI_SP
+FIC72_00_01_90_HMI_SP;D2236;REAL;Setpoint från HMI;;30;Sekund;P_THP_FIC72_00_01_90_HMI_SP
+FIC80_01_01_HMI_SP;D2476;REAL;Setpoint från HMI;;30;Sekund;P_THP_FIC80_01_01_HMI_SP
+FIC80_02_01_HMI_SP;D2496;REAL;Setpoint från HMI;;30;Sekund;P_THP_FIC80_02_01_HMI_SP
+FIC90_02_01_HMI_SP;D2176;REAL;Setpoint från HMI;;30;Sekund;P_THP_FIC90_02_01_HMI_SP
+FT01_00_01K_CALC;D5150;REAL;Kalkylerat flöde slam;;30;Sekund;P_THP_FT01_00_01K_CALC
+FT03_00_01_CALC;D2584;REAL;Kalkylerat värde;;30;Sekund;P_THP_FT03_00_01_CALC
+FT03_00_01_P;XA0;BOOL;Septikslam Flödespuls;Av/på;0;Ved Endring;P_THP_FT03_00_01_P
+FT04_00_01_CALC;D2604;REAL;Kalkylerat värde;;30;Sekund;P_THP_FT04_00_01_CALC
+FT04_00_01_P;XA1;BOOL;Fett Flödespuls;Av/på;0;Ved Endring;P_THP_FT04_00_01_P
+FT61_00_01_CALC;D3064;REAL;Kalkylerat värde;;30;Sekund;P_THP_FT61_00_01_CALC
+FT61_00_01_P;XD7;BOOL;Gasflöde från rötkammare Flödespuls;Av/på;0;Ved Endring;P_THP_FT61_00_01_P
+FT61_00_02_CALC;D3084;REAL;Kalkylerat värde;;30;Sekund;P_THP_FT61_00_02_CALC
+FT61_00_02_P;XD8;BOOL;Gasflöde brukad biogass Flödespuls;Av/på;0;Ved Endring;P_THP_FT61_00_02_P
+FT71_01_01_CALC;D3244;REAL;Kalkylerat värde;;30;Sekund;P_THP_FT71_01_01_CALC
+FT71_01_01_P;XA2;BOOL;Slam till centrifug Flödespuls;Av/på;0;Ved Endring;P_THP_FT71_01_01_P
+FT71_02_01_CALC;D3264;REAL;Kalkylerat värde;;30;Sekund;P_THP_FT71_02_01_CALC
+FT71_02_01_P;XA3;BOOL;Slam till centrifug Flödespuls;Av/på;0;Ved Endring;P_THP_FT71_02_01_P
+FT72_00_01_CALC;D3384;REAL;Kalkylerat värde;;30;Sekund;P_THP_FT72_00_01_CALC
+FT72_00_01_P;XA4;BOOL;Spädvatten Flödespuls;Av/på;0;Ved Endring;P_THP_FT72_00_01_P
+FT80_01_01_CALC;D3424;REAL;Kalkylerat värde;;30;Sekund;P_THP_FT80_01_01_CALC
+FT80_01_01_P;XA5;BOOL;Polymer Flödespuls;Av/på;0;Ved Endring;P_THP_FT80_01_01_P
+FT80_02_01_CALC;D3444;REAL;Kalkylerat värde;;30;Sekund;P_THP_FT80_02_01_CALC
+FT80_02_01_P;XA6;BOOL;Polymer Flödespuls;Av/på;0;Ved Endring;P_THP_FT80_02_01_P
+FT90_02_01_CALC;D3464;REAL;Kalkylerat värde;;30;Sekund;P_THP_FT90_02_01_CALC
+FT90_02_01_P;XA7;BOOL;Renvatten Flödespuls;Av/på;0;Ved Endring;P_THP_FT90_02_01_P
+LEVELS_LS03_01_01;M3223;BOOL;Överfyllnadsskydd buffertank septik ;Av/på;0;Ved Endring;P_THP_LEVELS_LS03_01_01
+LEVELS_LS04_01_01;M3200;BOOL;Överfyllnadsskydd Fetttank 1 ;Av/på;0;Ved Endring;P_THP_LEVELS_LS04_01_01
+LEVELS_LS04_02_01;M3201;BOOL;Överfyllnadsskydd Fetttank 1 ;Av/på;0;Ved Endring;P_THP_LEVELS_LS04_02_01
+LEVELS_LS72_00_01;M3224;BOOL;Nivåvakt ;Av/på;0;Ved Endring;P_THP_LEVELS_LS72_00_01
+LEVELS_LS90_00_01;M3235;BOOL;Nivåvakt ;Av/på;0;Ved Endring;P_THP_LEVELS_LS90_00_01
+LIC01_01_01_HMI_SP;D2316;REAL;Setpoint från HMI;;30;Sekund;P_THP_LIC01_01_01_HMI_SP
+LIC01_02_01_HMI_SP;D2336;REAL;Setpoint från HMI;;30;Sekund;P_THP_LIC01_02_01_HMI_SP
+LIC60_00_00_HMI_SP;D2416;REAL;Setpoint från HMI;;30;Sekund;P_THP_LIC60_00_00_HMI_SP
+LIC61_00_01_HMI_SP;D2296;REAL;Setpoint från HMI;;30;Sekund;P_THP_LIC61_00_01_HMI_SP
+LIC90_00_01_HMI_SP;D5816;REAL;Setpoint från HMI;;30;Sekund;P_THP_LIC90_00_01_HMI_SP
+LIC90_00_02_HMI_SP;D5836;REAL;Setpoint från HMI;;30;Sekund;P_THP_LIC90_00_02_HMI_SP
+Lindum_PLC_1_CALC;D4520;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_Lindum_PLC_1_CALC
+Lindum_PLC_2_CALC;D4530;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_Lindum_PLC_2_CALC
+Lindum_PLC_3_CALC;D4540;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_Lindum_PLC_3_CALC
+Lindum_PLC_4_CALC;D4550;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_Lindum_PLC_4_CALC
+Lindum_PLC_5_CALC;D4560;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_Lindum_PLC_5_CALC
+Lindum_PLC_6_CALC;D4570;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_Lindum_PLC_6_CALC
+LS03_01_01;XE9;BOOL;Överfyllnadsskydd buffertank septik ;Av/på;0;Ved Endring;P_THP_LS03_01_01
+LS04_01_01;X45;BOOL;Överfyllnadsskydd Fetttank 1 ;Av/på;0;Ved Endring;P_THP_LS04_01_01
+LS04_02_01;X46;BOOL;Överfyllnadsskydd Fetttank 2 ;Av/på;0;Ved Endring;P_THP_LS04_02_01
+LS60_00_01;X19F;BOOL;Fuktvakt vid råtnetankar botten;Av/på;0;Ved Endring;P_THP_LS60_00_01
+LS60_00_01_TID;;BOOL;LS60.00.01 tidsfördröjd;Av/på;0;Ved Endring;P_THP_LS60_00_01_TID
+LS72_00_01;X110;BOOL;Nivåvakt ;Av/på;0;Ved Endring;P_THP_LS72_00_01
+LS90_00_01;X136;BOOL;Nivåvakt ;Av/på;0;Ved Endring;P_THP_LS90_00_01
+LT01_00_01_CALC;D2504;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT01_00_01_CALC
+LT01_01_01_CALC;D2524;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT01_01_01_CALC
+LT01_02_01_CALC;D2544;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT01_02_01_CALC
+LT03_00_01_CALC;D3664;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT03_00_01_CALC
+LT04_00_01_CALC;D2624;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT04_00_01_CALC
+LT04_01_01_CALC;D2644;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT04_01_01_CALC
+LT04_02_01_CALC;D2664;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT04_02_01_CALC
+LT60_00_00_CALC;D2724;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT60_00_00_CALC
+LT60_01_00_CALC;D2744;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT60_01_00_CALC
+LT60_01_01_CALC;D2764;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT60_01_01_CALC
+LT60_02_00_CALC;D2784;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT60_02_00_CALC
+LT60_02_01_CALC;D2804;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT60_02_01_CALC
+LT61_00_01_CALC;D3104;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT61_00_01_CALC
+LT70_00_01_CALC;D3204;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT70_00_01_CALC
+LT71_00_01_CALC;D3284;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT71_00_01_CALC
+LT71_00_02_CALC;D3304;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT71_00_02_CALC
+LT71_00_03_CALC;D3324;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT71_00_03_CALC
+LT72_00_01_CALC;D3404;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT72_00_01_CALC
+LT90_00_01_CALC;D3504;REAL;Kalkylerat värde;;30;Sekund;P_THP_LT90_00_01_CALC
+PAR_RK1_LT60_01_00K_CALC;D5194;REAL;LT60.01.00K = kompenserat med gastryck;;30;Sekund;P_THP_PAR_RK1_LT60_01_00K_CALC
+PAR_RK2_LT60_02_00K_CALC;D5624;REAL;LT60.02.00K = kompenserat med gastryck;;30;Sekund;P_THP_PAR_RK2_LT60_02_00K_CALC
+PCE71_01_01_AI1_CALC;D3704;REAL;Kalkylerat värde;;30;Sekund;P_THP_PCE71_01_01_AI1_CALC
+PCE71_01_01_AI2_CALC;D3724;REAL;Kalkylerat värde;;30;Sekund;P_THP_PCE71_01_01_AI2_CALC
+PCE71_01_01_AI3_CALC;D3744;REAL;Kalkylerat värde;;30;Sekund;P_THP_PCE71_01_01_AI3_CALC
+PCE71_01_01_D;XEA;BOOL;Centrifug Drift;Av/på;0;Ved Endring;P_THP_PCE71_01_01_D
+PCE71_01_01_SCROLLSPD;D9020;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_01_01_SCROLLSPD
+PCE71_01_01_SP_1_CALC;D4420;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_PCE71_01_01_SP_1_CALC
+PCE71_01_01_SP_2_CALC;D4430;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_PCE71_01_01_SP_2_CALC
+PCE71_01_01_SP_3_CALC;D4440;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_PCE71_01_01_SP_3_CALC
+PCE71_02_01_AI1_CALC;D3764;REAL;Kalkylerat värde;;30;Sekund;P_THP_PCE71_02_01_AI1_CALC
+PCE71_02_01_AI2_CALC;D3784;REAL;Kalkylerat värde;;30;Sekund;P_THP_PCE71_02_01_AI2_CALC
+PCE71_02_01_AI3_CALC;D3804;REAL;Kalkylerat värde;;30;Sekund;P_THP_PCE71_02_01_AI3_CALC
+PCE71_02_01_D;XF5;BOOL;Centrifug Drift;Av/på;0;Ved Endring;P_THP_PCE71_02_01_D
+PCE71_02_01_SCROLLSPD;D9120;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_02_01_SCROLLSPD
+PCE71_02_01_SP_1_CALC;D4450;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_PCE71_02_01_SP_1_CALC
+PCE71_02_01_SP_2_CALC;D4460;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_PCE71_02_01_SP_2_CALC
+PCE71_02_01_SP_3_CALC;D4470;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_PCE71_02_01_SP_3_CALC
+PCO03_01_01_ACC_CURR;D806;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PCO03_01_01_ACC_CURR
+PCO03_01_01_ACC_SPEED;D804;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PCO03_01_01_ACC_SPEED
+PCO03_01_01_DRIFTSKLAR;D905.A;BOOL;PCO03_01_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PCO03_01_01_DRIFTSKLAR
+PCO94_01_01_D;XBE;BOOL;Kompressor Drift;Av/på;0;Ved Endring;P_THP_PCO94_01_01_D
+PCO94_01_02_D;XC1;BOOL;Kompressor Drift;Av/på;0;Ved Endring;P_THP_PCO94_01_02_D
+PCV01_00_01_ACC_CURR;D494;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PCV01_00_01_ACC_CURR
+PCV01_00_01_ACC_SPEED;D492;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PCV01_00_01_ACC_SPEED
+PCV01_00_01_B_REF;D4816;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PCV01_00_01_B_REF
+PCV01_00_01_DRIFTSKLAR;D904.0;BOOL;PCV01_00_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PCV01_00_01_DRIFTSKLAR
+PCV01_00_01_F_REF;D4800;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PCV01_00_01_F_REF
+PCV01_00_01NY_RUNNING;M1981;BOOL;PCV01_00_01NY Running fram eller back;Av/på;0;Ved Endring;P_THP_PCV01_00_01NY_RUNNING
+PCV01_00_02_ACC_CURR;D506;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PCV01_00_02_ACC_CURR
+PCV01_00_02_ACC_SPEED;D504;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PCV01_00_02_ACC_SPEED
+PCV01_00_02_B_REF;D4802;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PCV01_00_02_B_REF
+PCV01_00_02_DRIFTSKLAR;D904.1;BOOL;PCV01_00_02 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PCV01_00_02_DRIFTSKLAR
+PCV01_00_02_F_REF;D4801;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PCV01_00_02_F_REF
+PCV01_00_02_RUNNING;M2641;BOOL;PCV01_00_02 Running fram eller back;Av/på;0;Ved Endring;P_THP_PCV01_00_02_RUNNING
+PCV71_00_01_D;X100;BOOL;Skruvtransportör Drift;Av/på;0;Ved Endring;P_THP_PCV71_00_01_D
+PCV71_00_02_D;X107;BOOL;Skruvtransportör Drift;Av/på;0;Ved Endring;P_THP_PCV71_00_02_D
+PCV71_00_03_D;X200;BOOL;Container 1 Drift;Av/på;0;Ved Endring;P_THP_PCV71_00_03_D
+PCV71_00_04_D;X20C;BOOL;Container 2 Drift;Av/på;0;Ved Endring;P_THP_PCV71_00_04_D
+PFA61_00_01_D;XCC;BOOL;Fläkt för gaslagrets yttermembran Drift;Av/på;0;Ved Endring;P_THP_PFA61_00_01_D
+PFA61_00_02_ACC_CURR;D650;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PFA61_00_02_ACC_CURR
+PFA61_00_02_ACC_SPEED;D648;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PFA61_00_02_ACC_SPEED
+PFA61_00_02_DRIFTSKLAR;D904.D;BOOL;PFA61_00_02 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PFA61_00_02_DRIFTSKLAR
+PFA61_00_02_F_REF;D4805;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PFA61_00_02_F_REF
+PGA01_00_01_O;X49;BOOL;Påfyllningslucka Öppen;Av/på;0;Ved Endring;P_THP_PGA01_00_01_O
+PGA01_00_02_O;X4B;BOOL;Påfyllningslucka Öppen;Av/på;0;Ved Endring;P_THP_PGA01_00_02_O
+PIC03_00_01_HMI_SP;D2396;REAL;Setpoint från HMI;;30;Sekund;P_THP_PIC03_00_01_HMI_SP
+PMI03_01_01_D;X121;BOOL;Omrörare Buffertank septik Drift;Av/på;0;Ved Endring;P_THP_PMI03_01_01_D
+PMI60_01_00_ACC_CURR;D578;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PMI60_01_00_ACC_CURR
+PMI60_01_00_ACC_SPEED;D576;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PMI60_01_00_ACC_SPEED
+PMI60_01_00_B_REF;D4810;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PMI60_01_00_B_REF
+PMI60_01_00_DRIFTSKLAR;D904.7;BOOL;PMI60_01_00 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PMI60_01_00_DRIFTSKLAR
+PMI60_01_00_F_REF;D4809;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PMI60_01_00_F_REF
+PMI60_01_00_RUNNING;M2661;BOOL;PMI60_01_00 Running fram eller back;Av/på;0;Ved Endring;P_THP_PMI60_01_00_RUNNING
+PMI60_02_00_ACC_CURR;D590;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PMI60_02_00_ACC_CURR
+PMI60_02_00_ACC_SPEED;D588;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PMI60_02_00_ACC_SPEED
+PMI60_02_00_B_REF;D4812;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PMI60_02_00_B_REF
+PMI60_02_00_DRIFTSKLAR;D904.8;BOOL;PMI60_02_00 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PMI60_02_00_DRIFTSKLAR
+PMI60_02_00_F_REF;D4811;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PMI60_02_00_F_REF
+PMI60_02_00_RUNNING;M2681;BOOL;PMI60_02_00 Running fram eller back;Av/på;0;Ved Endring;P_THP_PMI60_02_00_RUNNING
+PMI70_00_01_ACC_CURR;D662;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PMI70_00_01_ACC_CURR
+PMI70_00_01_ACC_SPEED;D660;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PMI70_00_01_ACC_SPEED
+PMI70_00_01_DRIFTSKLAR;D904.E;BOOL;PMI70_00_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PMI70_00_01_DRIFTSKLAR
+PMI70_00_01_F_REF;D4806;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PMI70_00_01_F_REF
+PMI70_00_01NY_RUNNING;M3181;BOOL;PMI70_00_01NY Running fram eller back;Av/på;0;Ved Endring;P_THP_PMI70_00_01NY_RUNNING
+PMI72_00_01_ACC_CURR;D698;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PMI72_00_01_ACC_CURR
+PMI72_00_01_ACC_SPEED;D696;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PMI72_00_01_ACC_SPEED
+PMI72_00_01_DRIFTSKLAR;D905.1;BOOL;PMI72_00_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PMI72_00_01_DRIFTSKLAR
+PMI72_00_01_F_REF;D4807;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PMI72_00_01_F_REF
+PPU01_01_01_ACC_CURR;D518;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU01_01_01_ACC_CURR
+PPU01_01_01_ACC_SPEED;D516;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU01_01_01_ACC_SPEED
+PPU01_01_01_DRIFTSKLAR;D904.2;BOOL;PPU01_01_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU01_01_01_DRIFTSKLAR
+PPU01_02_01_ACC_CURR;D530;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU01_02_01_ACC_CURR
+PPU01_02_01_ACC_SPEED;D528;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU01_02_01_ACC_SPEED
+PPU01_02_01_DRIFTSKLAR;D904.3;BOOL;PPU01_02_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU01_02_01_DRIFTSKLAR
+PPU03_01_01_D;XC4;BOOL;Sandpump Drift;Av/på;0;Ved Endring;P_THP_PPU03_01_01_D
+PPU03_01_02_D;XE0;BOOL;Sandpump Drift;Av/på;0;Ved Endring;P_THP_PPU03_01_02_D
+PPU03_01_03_ACC_CURR;D542;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU03_01_03_ACC_CURR
+PPU03_01_03_ACC_SPEED;D540;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU03_01_03_ACC_SPEED
+PPU03_01_03_DRIFTSKLAR;D904.4;BOOL;PPU03_01_03 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU03_01_03_DRIFTSKLAR
+PPU03_01_04_ACC_CURR;D794;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU03_01_04_ACC_CURR
+PPU03_01_04_ACC_SPEED;D792;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU03_01_04_ACC_SPEED
+PPU03_01_04_DRIFTSKLAR;D905.9;BOOL;PPU03_01_04 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU03_01_04_DRIFTSKLAR
+PPU04_01_01_D;X71;BOOL;Cirkulationspump Drift;Av/på;0;Ved Endring;P_THP_PPU04_01_01_D
+PPU04_01_02_ACC_CURR;D554;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU04_01_02_ACC_CURR
+PPU04_01_02_ACC_SPEED;D552;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU04_01_02_ACC_SPEED
+PPU04_01_02_DRIFTSKLAR;D904.5;BOOL;PPU04_01_02 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU04_01_02_DRIFTSKLAR
+PPU04_02_01_D;X77;BOOL;Cirkulationspump Drift;Av/på;0;Ved Endring;P_THP_PPU04_02_01_D
+PPU04_02_02_ACC_CURR;D566;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU04_02_02_ACC_CURR
+PPU04_02_02_ACC_SPEED;D564;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU04_02_02_ACC_SPEED
+PPU04_02_02_DRIFTSKLAR;D904.6;BOOL;PPU04_02_02 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU04_02_02_DRIFTSKLAR
+PPU60_00_01_ACC_CURR;D602;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU60_00_01_ACC_CURR
+PPU60_00_01_ACC_SPEED;D600;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU60_00_01_ACC_SPEED
+PPU60_00_01_DRIFTSKLAR;D904.9;BOOL;PPU60_00_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU60_00_01_DRIFTSKLAR
+PPU60_00_02_ACC_CURR;D614;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU60_00_02_ACC_CURR
+PPU60_00_02_ACC_SPEED;D612;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU60_00_02_ACC_SPEED
+PPU60_00_02_DRIFTSKLAR;D904.A;BOOL;PPU60_00_02 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU60_00_02_DRIFTSKLAR
+PPU60_01_00_ACC_CURR;D626;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU60_01_00_ACC_CURR
+PPU60_01_00_ACC_SPEED;D624;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU60_01_00_ACC_SPEED
+PPU60_01_00_DRIFTSKLAR;D904.B;BOOL;PPU60_01_00 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU60_01_00_DRIFTSKLAR
+PPU60_01_00_F_REF;D4803;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PPU60_01_00_F_REF
+PPU60_02_00_ACC_CURR;D638;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU60_02_00_ACC_CURR
+PPU60_02_00_ACC_SPEED;D636;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU60_02_00_ACC_SPEED
+PPU60_02_00_DRIFTSKLAR;D904.C;BOOL;PPU60_02_00 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU60_02_00_DRIFTSKLAR
+PPU60_02_00_F_REF;D4804;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PPU60_02_00_F_REF
+PPU70_01_01_ACC_CURR;D674;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU70_01_01_ACC_CURR
+PPU70_01_01_ACC_SPEED;D672;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU70_01_01_ACC_SPEED
+PPU70_01_01_DRIFTSKLAR;D904.F;BOOL;PPU70_01_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU70_01_01_DRIFTSKLAR
+PPU70_01_01_F_REF;D4797;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PPU70_01_01_F_REF
+PPU70_02_01_ACC_CURR;D686;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU70_02_01_ACC_CURR
+PPU70_02_01_ACC_SPEED;D684;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU70_02_01_ACC_SPEED
+PPU70_02_01_DRIFTSKLAR;D905.0;BOOL;PPU70_02_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU70_02_01_DRIFTSKLAR
+PPU70_02_01_F_REF;D4798;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PPU70_02_01_F_REF
+PPU72_01_01_ACC_CURR;D710;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU72_01_01_ACC_CURR
+PPU72_01_01_ACC_SPEED;D708;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU72_01_01_ACC_SPEED
+PPU72_01_01_DRIFTSKLAR;D905.2;BOOL;PPU72_01_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU72_01_01_DRIFTSKLAR
+PPU72_02_01_ACC_CURR;D722;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU72_02_01_ACC_CURR
+PPU72_02_01_ACC_SPEED;D720;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU72_02_01_ACC_SPEED
+PPU72_02_01_DRIFTSKLAR;D905.3;BOOL;PPU72_02_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU72_02_01_DRIFTSKLAR
+PPU80_01_01_ACC_CURR;D734;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU80_01_01_ACC_CURR
+PPU80_01_01_ACC_SPEED;D732;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU80_01_01_ACC_SPEED
+PPU80_01_01_DRIFTSKLAR;D905.4;BOOL;PPU80_01_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU80_01_01_DRIFTSKLAR
+PPU80_01_01_F_REF;D4814;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PPU80_01_01_F_REF
+PPU80_02_01_ACC_CURR;D746;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU80_02_01_ACC_CURR
+PPU80_02_01_ACC_SPEED;D744;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU80_02_01_ACC_SPEED
+PPU80_02_01_DRIFTSKLAR;D905.5;BOOL;PPU80_02_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU80_02_01_DRIFTSKLAR
+PPU80_02_01_F_REF;D4799;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PPU80_02_01_F_REF
+PPU80_03_01_ACC_CURR;D758;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU80_03_01_ACC_CURR
+PPU80_03_01_ACC_SPEED;D756;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU80_03_01_ACC_SPEED
+PPU80_03_01_DRIFTSKLAR;D905.6;BOOL;PPU80_03_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU80_03_01_DRIFTSKLAR
+PPU80_03_01_F_REF;D4815;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PPU80_03_01_F_REF
+PPU90_01_01_ACC_CURR;D770;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU90_01_01_ACC_CURR
+PPU90_01_01_ACC_SPEED;D768;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU90_01_01_ACC_SPEED
+PPU90_01_01_DRIFTSKLAR;D905.7;BOOL;PPU90_01_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU90_01_01_DRIFTSKLAR
+PPU90_02_01_ACC_CURR;D782;REAL;Aktuell ström från frekv.;;30;Sekund;P_THP_PPU90_02_01_ACC_CURR
+PPU90_02_01_ACC_SPEED;D780;REAL;Aktuell speed från frekv. 0.0-50.0 Hz;;30;Sekund;P_THP_PPU90_02_01_ACC_SPEED
+PPU90_02_01_DRIFTSKLAR;D905.8;BOOL;PPU90_02_01 Frekvensomformare driftsklar;Av/på;0;Ved Endring;P_THP_PPU90_02_01_DRIFTSKLAR
+PPU90_02_01_F_REF;D4808;INT;Referens speed 0-12000 till frekv.omf som inte har PID;;30;Sekund;P_THP_PPU90_02_01_F_REF
+PPU92_01_00_D;X14F;BOOL;Kylvattenpump Drift;Av/på;0;Ved Endring;P_THP_PPU92_01_00_D
+PPU92_02_00_D;X153;BOOL;Kylvattenpump Drift;Av/på;0;Ved Endring;P_THP_PPU92_02_00_D
+PS01_01_01;X58;BOOL;Tryckvakt  ;Av/på;0;Ved Endring;P_THP_PS01_01_01
+PS01_02_01;X59;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS01_02_01
+PS03_01_01;XC8;BOOL;Tryckvakt septik ;Av/på;0;Ved Endring;P_THP_PS03_01_01
+PS03_01_02;XC9;BOOL;Tryckvakt septik ;Av/på;0;Ved Endring;P_THP_PS03_01_02
+PS04_01_02;X7D;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS04_01_02
+PS04_02_02;X7E;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS04_02_02
+PS60_00_01;XB0;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS60_00_01
+PS60_00_02;XB1;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS60_00_02
+PS70_01_01;XDE;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS70_01_01
+PS70_02_01;XDF;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS70_02_01
+PS72_01_01;X116;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS72_01_01
+PS72_02_01;X117;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS72_02_01
+PS80_01_01;X130;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS80_01_01
+PS80_02_01;X131;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS80_02_01
+PS80_03_01;X132;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS80_03_01
+PS90_01_01;X13B;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS90_01_01
+PS90_02_01;X13C;BOOL;Tryckvakt ;Av/på;0;Ved Endring;P_THP_PS90_02_01
+PT01_00_01_CALC;D2564;REAL;Kalkylerat värde;;30;Sekund;P_THP_PT01_00_01_CALC
+PT03_00_01_CALC;D3684;REAL;Kalkylerat värde;;30;Sekund;P_THP_PT03_00_01_CALC
+PT61_00_02_CALC;D3124;REAL;Kalkylerat värde;;30;Sekund;P_THP_PT61_00_02_CALC
+PT61_00_03_CALC;D2884;REAL;Kalkylerat värde;;30;Sekund;P_THP_PT61_00_03_CALC
+PT61_01_01_CALC;D3144;REAL;Kalkylerat värde;;30;Sekund;P_THP_PT61_01_01_CALC
+PT61_02_01_CALC;D3164;REAL;Kalkylerat värde;;30;Sekund;P_THP_PT61_02_01_CALC
+PT94_01_01_CALC;D3524;REAL;Kalkylerat värde;;30;Sekund;P_THP_PT94_01_01_CALC
+PVA_90_61_01_O;X189;BOOL;On/off-ventil vatten gaskjöler1 öppen;Av/på;0;Ved Endring;P_THP_PVA_90_61_01_O
+PVA_90_61_02_O;X18C;BOOL;On/off-ventil vatten gaskjöler2 öppen;Av/på;0;Ved Endring;P_THP_PVA_90_61_02_O
+PVA01_01_01_O;X63;BOOL;Avstängningslucka under fördelningsskruv Öppen;Av/på;0;Ved Endring;P_THP_PVA01_01_01_O
+PVA01_01_02_O;X66;BOOL;Avstängningsventil, trycksida slampumpar Öppen;Av/på;0;Ved Endring;P_THP_PVA01_01_02_O
+PVA01_02_01_O;X69;BOOL;Avstängningslucka under fördelningsskruv Öppen;Av/på;0;Ved Endring;P_THP_PVA01_02_01_O
+PVA01_02_02_O;X6C;BOOL;Avstängningsventil, trycksida slampumpar Öppen;Av/på;0;Ved Endring;P_THP_PVA01_02_02_O
+PVA01_O;X194;BOOL;Gasventil UBG öppen;Av/på;0;Ved Endring;P_THP_PVA01_O
+PVA03_01_02_O;X183;BOOL;On/off-ventil, septik till avvannet slam Öppen;Av/på;0;Ved Endring;P_THP_PVA03_01_02_O
+PVA03_01_03_O;X186;BOOL;On/off-ventil, septik till Cambi THP Öppen;Av/på;0;Ved Endring;P_THP_PVA03_01_03_O
+PVA04_00_01_O;X7F;BOOL;On/off-ventil, bilanslutning fettmottagning Öppen;Av/på;0;Ved Endring;P_THP_PVA04_00_01_O
+PVA04_01_01_O;X82;BOOL;On/off-ventil, sugsida fettcirkulation påfyllning Öppen;Av/på;0;Ved Endring;P_THP_PVA04_01_01_O
+PVA04_01_02_O;X85;BOOL;On/off-ventil, sugsida fettcirkulation Öppen;Av/på;0;Ved Endring;P_THP_PVA04_01_02_O
+PVA04_01_03_O;X88;BOOL;On/off-ventil, trycksida fettuttag Öppen;Av/på;0;Ved Endring;P_THP_PVA04_01_03_O
+PVA04_01_04_O;X8B;BOOL;On/off-ventil, trycksida fettcirkulation Öppen;Av/på;0;Ved Endring;P_THP_PVA04_01_04_O
+PVA04_02_01_O;X8E;BOOL;On/off-ventil, sugsida fettcirkulation påfyllning Öppen;Av/på;0;Ved Endring;P_THP_PVA04_02_01_O
+PVA04_02_02_O;X91;BOOL;On/off-ventil, sugsida fettcirkulation Öppen;Av/på;0;Ved Endring;P_THP_PVA04_02_02_O
+PVA04_02_03_O;X94;BOOL;On/off-ventil, trycksida fettuttag Öppen;Av/på;0;Ved Endring;P_THP_PVA04_02_03_O
+PVA04_02_04_O;X97;BOOL;On/off-ventil, trycksida fettcirkulation Öppen;Av/på;0;Ved Endring;P_THP_PVA04_02_04_O
+PVA60_00_01_O;XB2;BOOL;On/off-ventil, trycksida rötslam till bufferttank Öppen;Av/på;0;Ved Endring;P_THP_PVA60_00_01_O
+PVA60_00_02_O;XB5;BOOL;On/off-ventil, trycksida rötslam till bufferttank Öppen;Av/på;0;Ved Endring;P_THP_PVA60_00_02_O
+PVA60_01_01_O;XB8;BOOL;On/off-ventil, trycksida rötslamcirkulation Öppen;Av/på;0;Ved Endring;P_THP_PVA60_01_01_O
+PVA60_01_02_O;X199;BOOL;Avstängningsventil råtnetank 1 öppen;Av/på;0;Ved Endring;P_THP_PVA60_01_02_O
+PVA60_02_01_O;XBB;BOOL;On/off-ventil, trycksida rötslamcirkulation Öppen;Av/på;0;Ved Endring;P_THP_PVA60_02_01_O
+PVA60_02_02_O;X19C;BOOL;Avstängningsventil råtnetank 2 öppen;Av/på;0;Ved Endring;P_THP_PVA60_02_02_O
+PVA61_00_01_O;XD1;BOOL;On/off-ventil Öppen;Av/på;0;Ved Endring;P_THP_PVA61_00_01_O
+PVA61_00_02_O;XD4;BOOL;On/off-ventil Öppen;Av/på;0;Ved Endring;P_THP_PVA61_00_02_O
+PVA61_00_03_O;;BOOL;On/off-ventil, gasfackla Öppen;Av/på;0;Ved Endring;P_THP_PVA61_00_03_O
+PVA61_00_04_O;X17D;BOOL;On/off ventil gas energicentral Öppen;Av/på;0;Ved Endring;P_THP_PVA61_00_04_O
+PVA71_00_01_O;X104;BOOL;Avstängningslucka under utmatningsskruv Öppen;Av/på;0;Ved Endring;P_THP_PVA71_00_01_O
+PVA71_00_02_O;X10E;BOOL;Avstängningslucka under utmatningsskruv Öppen;Av/på;0;Ved Endring;P_THP_PVA71_00_02_O
+PVA72_01_01_O;X118;BOOL;On/off-ventil, rejektvatten till spädvattensystem Öppen;Av/på;0;Ved Endring;P_THP_PVA72_01_01_O
+PVA72_01_02_O;X11B;BOOL;On/off-ventil, spädvatten till torrslampump Öppen;Av/på;0;Ved Endring;P_THP_PVA72_01_02_O
+PVA72_01_03_O;X11E;BOOL;On/off-ventil, spädvatten till torrslampump Öppen;Av/på;0;Ved Endring;P_THP_PVA72_01_03_O
+PVA90_00_01_O;X9A;BOOL;On/off-ventil, Inlopp till renvattentank Öppen;Av/på;0;Ved Endring;P_THP_PVA90_00_01_O
+PVA90_00_01_SP;;INT;Signal till analoga utkortet;;30;Sekund;P_THP_PVA90_00_01_SP
+PVA90_00_01_SP_CALC;D4500;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_PVA90_00_01_SP_CALC
+PVA90_00_01_SPSP_PID;D4509;INT;PID_CV värde;;30;Sekund;P_THP_PVA90_00_01_SPSP_PID
+PVA90_00_02_O;X15A;BOOL;On/off-ventil, byvann till vanntank Öppen;Av/på;0;Ved Endring;P_THP_PVA90_00_02_O
+PVA90_00_02_SP;;INT;Signal till analoga utkortet;;30;Sekund;P_THP_PVA90_00_02_SP
+PVA90_00_02_SP_CALC;D4510;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_PVA90_00_02_SP_CALC
+PVA90_00_02_SPSP_PID;D4519;INT;PID_CV värde;;30;Sekund;P_THP_PVA90_00_02_SPSP_PID
+PVA90_01_01_O;X157;BOOL;On/off-ventil, spädvatten från vanntank Öppen;Av/på;0;Ved Endring;P_THP_PVA90_01_01_O
+PVA90_02_01_O;X133;BOOL;On/off-ventil, vatten till lining PPU01.01.01 Öppen;Av/på;0;Ved Endring;P_THP_PVA90_02_01_O
+PVA91_00_01_O;X5A;BOOL;Hetvann till stenfälla Öppen;Av/på;0;Ved Endring;P_THP_PVA91_00_01_O
+PVA91_01_01_O;X5D;BOOL;Hetvann till fetttank 1 Öppen;Av/på;0;Ved Endring;P_THP_PVA91_01_01_O
+PVA91_02_01_O;X60;BOOL;Hetvann till fetttank 2 Öppen;Av/på;0;Ved Endring;P_THP_PVA91_02_01_O
+PVA92_01_00_POS_CALC;D3624;REAL;Kalkylerat värde;;30;Sekund;P_THP_PVA92_01_00_POS_CALC
+PVA92_01_00_POS_CURRENT;D3626;REAL;Strömvärde 4-20mA;;30;Sekund;P_THP_PVA92_01_00_POS_CURRENT
+PVA92_01_00_SP;;INT;Signal till analoga utkortet;;30;Sekund;P_THP_PVA92_01_00_SP
+PVA92_01_00_SP_CALC;D4480;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_PVA92_01_00_SP_CALC
+PVA92_01_00_SPSP_PID;D4489;INT;PID_CV värde;;30;Sekund;P_THP_PVA92_01_00_SPSP_PID
+PVA92_02_00_POS_CALC;D3644;REAL;Kalkylerat värde;;30;Sekund;P_THP_PVA92_02_00_POS_CALC
+PVA92_02_00_POS_CURRENT;D3646;REAL;Strömvärde 4-20mA;;30;Sekund;P_THP_PVA92_02_00_POS_CURRENT
+PVA92_02_00_SP;;INT;Signal till analoga utkortet;;30;Sekund;P_THP_PVA92_02_00_SP
+PVA92_02_00_SP_CALC;D4490;REAL;IN Kalkylerat värde;;30;Sekund;P_THP_PVA92_02_00_SP_CALC
+PVA92_02_00_SPSP_PID;D4499;INT;PID_CV värde;;30;Sekund;P_THP_PVA92_02_00_SPSP_PID
+PVA93_01_01_O;X4D;BOOL;Ånga till fetttank 1 Öppen;Av/på;0;Ved Endring;P_THP_PVA93_01_01_O
+PVA93_02_01_O;X50;BOOL;Ånga till fetttank 2 Öppen;Av/på;0;Ved Endring;P_THP_PVA93_02_01_O
+QGA60_00_01_CALC;D2904;REAL;Kalkylerat värde;;30;Sekund;P_THP_QGA60_00_01_CALC
+QGA60_00_02_CALC;D2924;REAL;Kalkylerat värde;;30;Sekund;P_THP_QGA60_00_02_CALC
+QGA61_00_01_CALC;D3184;REAL;Kalkylerat värde;;30;Sekund;P_THP_QGA61_00_01_CALC
+QGA70_00_01_CALC;D3224;REAL;Kalkylerat värde;;30;Sekund;P_THP_QGA70_00_01_CALC
+QH61_00_02_CALC;D3944;REAL;Kalkylerat värde;;30;Sekund;P_THP_QH61_00_02_CALC
+SANDTV_org_utlopp_ventil_TS;D107.9;BOOL;Sandtvätt Larm bitar;Av/på;0;Ved Endring;P_THP_SANDTV_org_utlopp_ventil_TS
+SEPTIK_STYRORD_STARTSANDTV;D145.F;BOOL;;Av/på;0;Ved Endring;P_THP_SEPTIK_STYRORD_STARTSANDTV
+SMS_HT_TRPSMS;D5351.1;BOOL;HT_TRPSMS;Av/på;0;Ved Endring;P_THP_SMS_HT_TRPSMS
+SMS_UBG_TRPSMS;D5351.0;BOOL;UBG_TRPSMS;Av/på;0;Ved Endring;P_THP_SMS_UBG_TRPSMS
+SS01_01_01_CALC;D3964;REAL;Kalkylerat värde;;30;Sekund;P_THP_SS01_01_01_CALC
+SS71_01_01_CALC;D3344;REAL;Kalkylerat värde;;30;Sekund;P_THP_SS71_01_01_CALC
+SS71_02_01_CALC;D3364;REAL;Kalkylerat värde;;30;Sekund;P_THP_SS71_02_01_CALC
+TIC60_01_02_HMI_SP;D2356;REAL;Setpoint från HMI;;30;Sekund;P_THP_TIC60_01_02_HMI_SP
+TIC60_02_02_HMI_SP;D2376;REAL;Setpoint från HMI;;30;Sekund;P_THP_TIC60_02_02_HMI_SP
+TRPSUM;M3470;BOOL;Trip status;Av/på;0;Ved Endring;P_THP_TRPSUM
+TS01_01_01_TSA;X55;BOOL;Slampump Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS01_01_01_TSA
+TS01_02_01_TSA;X57;BOOL;Slampump Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS01_02_01_TSA
+TS03_01_01_CAS;X125;BOOL;Omrörare Buffertank septik Fuktvakt, tempvakt;Av/på;0;Ved Endring;P_THP_TS03_01_01_CAS
+TS03_01_01_CAS_KVITT;Y1A1;BOOL;Kvittera CAS alarm ;Av/på;0;Ved Endring;P_THP_TS03_01_01_CAS_KVITT
+TS03_01_03_TSA;X70;BOOL;Slampump Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS03_01_03_TSA
+TS03_01_04_TSA;X13E;BOOL;Slampump Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS03_01_04_TSA
+TS04_01_02;X76;BOOL;Pump för fett Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS04_01_02
+TS04_02_02;X7C;BOOL;Pump för fett Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS04_02_02
+TS60_00_01_TSA;XA9;BOOL;Pump från rötkammare Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS60_00_01_TSA
+TS60_00_02_TSA;XAB;BOOL;Pump från rötkammare Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS60_00_02_TSA
+TS60_01_00_CAS;XAD;BOOL;Recirkulationspump slam Profibus DP Fuktvakt, tempvakt;Av/på;0;Ved Endring;P_THP_TS60_01_00_CAS
+TS60_01_00_CAS_KVITT;Y1A2;BOOL;Kvittera CAS alarm ;Av/på;0;Ved Endring;P_THP_TS60_01_00_CAS_KVITT
+TS60_02_00_CAS;XAF;BOOL;Recirkulationspump slam Profibus DP Fuktvakt, tempvakt;Av/på;0;Ved Endring;P_THP_TS60_02_00_CAS
+TS60_02_00_CAS_KVITT;Y1A3;BOOL;Kvittera CAS alarm ;Av/på;0;Ved Endring;P_THP_TS60_02_00_CAS_KVITT
+TS70_01_01_TSA;XDB;BOOL;Pump till centrifug Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS70_01_01_TSA
+TS70_02_01_TSA;XDD;BOOL;Pump till centrifug Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS70_02_01_TSA
+TS72_01_01_TSA;X113;BOOL;Rejektvattenpump Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS72_01_01_TSA
+TS72_02_01_TSA;X115;BOOL;Rejektvattenpump Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS72_02_01_TSA
+TS80_01_01_TSA;X12B;BOOL;Polymerpump Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS80_01_01_TSA
+TS80_02_01_TSA;X12D;BOOL;Polymerpump Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS80_02_01_TSA
+TS80_03_01_TSA;X12F;BOOL;Polymerpump Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS80_03_01_TSA
+TS90_01_01_TSA;X138;BOOL;Pump från vanntank Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS90_01_01_TSA
+TS90_02_01_TSA;X13A;BOOL;Pump från vanntank Profibus DP Torrkörningsskydd;Av/på;0;Ved Endring;P_THP_TS90_02_01_TSA
+TT04_01_01_CALC;D2684;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT04_01_01_CALC
+TT04_02_01_CALC;D2704;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT04_02_01_CALC
+TT60_01_00_CALC;D2944;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT60_01_00_CALC
+TT60_01_01_CALC;D2964;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT60_01_01_CALC
+TT60_01_02_CALC;D2984;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT60_01_02_CALC
+TT60_02_00_CALC;D3004;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT60_02_00_CALC
+TT60_02_01_CALC;D3024;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT60_02_01_CALC
+TT60_02_02_CALC;D3044;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT60_02_02_CALC
+TT61_00_01_CALC;D2824;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT61_00_01_CALC
+TT61_00_02_CALC;D2844;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT61_00_02_CALC
+TT61_00_03_CALC;D2864;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT61_00_03_CALC
+TT92_01_01_CALC;D3544;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT92_01_01_CALC
+TT92_01_02_CALC;D3564;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT92_01_02_CALC
+TT92_02_01_CALC;D3584;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT92_02_01_CALC
+TT92_02_02_CALC;D3604;REAL;Kalkylerat värde;;30;Sekund;P_THP_TT92_02_02_CALC
+UPS_1;X15F;BOOL;Alarm UPS PLC ;Av/på;0;Ved Endring;P_THP_UPS_1
+UPS_2;X160;BOOL;Alarm UPS Kontrollrum ;Av/på;0;Ved Endring;P_THP_UPS_2
+VENT_TILLSPJELL_2;Y2E0;BOOL;Tillluftspjell 2 höy;Av/på;0;Ved Endring;P_THP_VENT_TILLSPJELL_2
+PCE71_01_01_CUR_DRUM;D9030;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_01_01_CUR_DRUM
+PCE71_01_01_DIFFSPD;D9022;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_01_01_DIFFSPD
+PCE71_01_01_DRUMSPD;D9018;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_01_01_DRUMSPD
+PCE71_01_01_TEMP_INLET;D9034;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_01_01_TEMP_INLET
+PCE71_01_01_TEMP_OUTLET;D9036;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_01_01_TEMP_OUTLET
+PCE71_01_01_TORQUE;D9024;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_01_01_TORQUE
+PCE71_01_01_VIB_INLET;D9038;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_01_01_VIB_INLET
+PCE71_01_01_VIB_OUTLET;D9040;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_01_01_VIB_OUTLET
+PCE71_02_01_CUR_DRUM;D9130;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_02_01_CUR_DRUM
+PCE71_02_01_DIFFSPD;D9122;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_02_01_DIFFSPD
+PCE71_02_01_DRUMSPD;D9118;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_02_01_DRUMSPD
+PCE71_02_01_SCROLLSPD;D9120;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_02_01_SCROLLSPD
+PCE71_02_01_TEMP_INLET;D9134;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_02_01_TEMP_INLET
+PCE71_02_01_TEMP_OUTLET;D9136;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_02_01_TEMP_OUTLET
+PCE71_02_01_TORQUE;D9124;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_02_01_TORQUE
+PCE71_02_01_VIB_INLET;D9138;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_02_01_VIB_INLET
+PCE71_02_01_VIB_OUTLET;D9140;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_02_01_VIB_OUTLET
+PCE71_01_01_SCROLLSPD;D9020;REAL;Profibus noxon;;30;Sekund;P_THP_PCE71_01_01_SCROLLSPD

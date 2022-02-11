@@ -1,0 +1,60 @@
+Name;Address;Datatype;Description
+CTW92_01_01_D;X13F;BOOL;Kylfläktar Drift
+CTW92_01_02_D;X143;BOOL;Kylfläktar Drift
+CTW92_02_01_D;X147;BOOL;Kylfläktar Drift
+CTW92_02_02_D;X14B;BOOL;Kylfläktar Drift
+EQU01_00_01_D;X40;BOOL;Hydraulaggregat Drift
+EQU71_00_00_D;XE4;BOOL;Hydraulaggregat Drift
+PCE71_01_01_D;XEA;BOOL;Centrifug Drift
+PCE71_02_01_D;XF5;BOOL;Centrifug Drift
+PCO03_01_01_RUN;D901.A;BOOL;PCO03_01_01 Drift signal från I/O
+PCO94_01_01_D;XBE;BOOL;Kompressor Drift
+PCO94_01_02_D;XC1;BOOL;Kompressor Drift
+PCV01_00_01_RUN;D900.0;BOOL;PCV01_00_01 Drift signal från I/O
+PCV01_00_01NY_B_RUN;D901.F;BOOL;PCV01_00_01NY Drift signal back från I/O
+PCV01_00_01NY_RUNNING;M1981;BOOL;PCV01_00_01NY Running fram eller back
+PCV01_00_02_B_RUN;D901.B;BOOL;PCV01_00_02 Drift signal back från I/O
+PCV01_00_02_F_RUN;D900.1;BOOL;PCV01_00_02 Drift signal fram från I/O
+PCV01_00_02_RUNNING;M2641;BOOL;PCV01_00_02 Running fram eller back
+PCV71_00_01_D;X100;BOOL;Skruvtransportör Drift
+PCV71_00_02_D;X107;BOOL;Skruvtransportör Drift
+PCV71_00_03_D;X200;BOOL;Container 1 Drift
+PCV71_00_04_D;X20C;BOOL;Container 2 Drift
+PFA61_00_01_D;XCC;BOOL;Fläkt för gaslagrets yttermembran Drift
+PFA61_00_02_RUN;D900.D;BOOL;PFA61_00_02 Drift signal från I/O
+PMI03_01_01_D;X121;BOOL;Omrörare Buffertank septik Drift
+PMI60_01_00_B_RUN;D901.C;BOOL;PMI60_01_00 Drift signal back från I/O
+PMI60_01_00_F_RUN;D900.7;BOOL;PMI60_01_00 Drift signal fram från I/O
+PMI60_01_00_RUNNING;M2661;BOOL;PMI60_01_00 Running fram eller back
+PMI60_02_00_B_RUN;D901.D;BOOL;PMI60_02_00 Drift signal back från I/O
+PMI60_02_00_F_RUN;D900.8;BOOL;PMI60_02_00 Drift signal fram från I/O
+PMI60_02_00_RUNNING;M2681;BOOL;PMI60_02_00 Running fram eller back
+PMI70_00_01_B_RUN;D901.E;BOOL;PMI70_00_01 Drift signal back från I/O
+PMI70_00_01_RUN;D900.E;BOOL;PMI70_00_01 Drift signal från I/O
+PMI70_00_01NY_RUNNING;M3181;BOOL;PMI70_00_01NY Running fram eller back
+PMI72_00_01_RUN;D901.1;BOOL;PMI72_00_01 Drift signal från I/O
+PPU01_01_01_RUN;D900.2;BOOL;PPU01_01_01 Drift signal från I/O
+PPU01_02_01_RUN;D900.3;BOOL;PPU01_02_01 Drift signal från I/O
+PPU03_01_01_D;XC4;BOOL;Sandpump Drift
+PPU03_01_02_D;XE0;BOOL;Sandpump Drift
+PPU03_01_03_RUN;D900.4;BOOL;PPU03_01_03 Drift signal från I/O
+PPU03_01_04_RUN;D901.9;BOOL;PPU03_01_04 Drift signal från I/O
+PPU04_01_01_D;X71;BOOL;Cirkulationspump Drift
+PPU04_01_02_RUN;D900.5;BOOL;PPU04_01_02 Drift signal från I/O
+PPU04_02_01_D;X77;BOOL;Cirkulationspump Drift
+PPU04_02_02_RUN;D900.6;BOOL;PPU04_02_02 Drift signal från I/O
+PPU60_00_01_RUN;D900.9;BOOL;PPU60_00_01 Drift signal från I/O
+PPU60_00_02_RUN;D900.A;BOOL;PPU60_00_02 Drift signal från I/O
+PPU60_01_00_RUN;D900.B;BOOL;PPU60_01_00 Drift signal från I/O
+PPU60_02_00_RUN;D900.C;BOOL;PPU60_02_00 Drift signal från I/O
+PPU70_01_01_RUN;D900.F;BOOL;PPU70_01_01 Drift signal från I/O
+PPU70_02_01_RUN;D901.0;BOOL;PPU70_02_01 Drift signal från I/O
+PPU72_01_01_RUN;D901.2;BOOL;PPU72_01_01 Drift signal från I/O
+PPU72_02_01_RUN;D901.3;BOOL;PPU72_02_01 Drift signal från I/O
+PPU80_01_01_RUN;D901.4;BOOL;PPU80_01_01 Drift signal från I/O
+PPU80_02_01_RUN;D901.5;BOOL;PPU80_02_01 Drift signal från I/O
+PPU80_03_01_RUN;D901.6;BOOL;PPU80_03_01 Drift signal från I/O
+PPU90_01_01_RUN;D901.7;BOOL;PPU90_01_01 Drift signal från I/O
+PPU90_02_01_RUN;D901.8;BOOL;PPU90_02_01 Drift signal från I/O
+PPU92_01_00_D;X14F;BOOL;Kylvattenpump Drift
+PPU92_02_00_D;X153;BOOL;Kylvattenpump Drift
